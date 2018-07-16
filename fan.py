@@ -13,7 +13,7 @@ def led_off():
 def main():
 	print("[Welcome to the Fan CNC] ")
 	print("Do you want to start the fan? ")
-	question = raw_input("(Y)es or (N)o: ") # Question to turn it on
+	question = raw_input("(Y)es or (N)o: ")
 
 	if question == 'y' \
 	or question == 'Y':
@@ -31,6 +31,6 @@ def main():
 		led_off()
   		print("Fan will not start")
 	else:
-  		print("That is not an option") # Any other answer that is not yes or no is disregarded and nothing happens
+  		print("That is not an option")
 
 main()
